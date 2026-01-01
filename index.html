@@ -2,74 +2,132 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <title>Airtm Prêmios</title>
+  <title>airtm Prêmios — Download Oficial</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: Arial, sans-serif;
-      background: #f5f7fa;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0f1a2b;
+      color: #ffffff;
     }
+
     .container {
-      background: #fff;
-      border-radius: 12px;
-      padding: 24px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 28px 22px;
       text-align: center;
-      width: 90%;
-      max-width: 380px;
     }
+
     h1 {
-      color: #1a1a1a;
-      font-size: 24px;
+      color: #4fc3f7;
+      font-size: 30px;
+      margin-top: 40px;
       margin-bottom: 12px;
-    }
-    p {
-      color: #444;
-      font-size: 15px;
-      margin-bottom: 18px;
-    }
-    .btn-download {
-      display: inline-block;
-      background: #1a73e8;
-      color: #fff;
-      text-decoration: none;
-      padding: 14px 24px;
-      border-radius: 8px;
       font-weight: bold;
-      font-size: 16px;
     }
-    .alt-link {
-      margin-top: 12px;
-      font-size: 13px;
-      color: #555;
+
+    .subtitle {
+      color: #dbe5ea;
+      font-size: 15.5px;
+      line-height: 1.6;
+      margin-bottom: 30px;
     }
-    .alt-link a {
-      color: #1a73e8;
+
+    .subtitle strong {
+      color: #ffffff;
+    }
+
+    .btn-download {
+      display: block;
+      background: linear-gradient(135deg, #1e88e5, #1565c0);
+      color: #ffffff;
       text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 16px;
+      border-radius: 10px;
+      margin: 14px auto;
+      width: 85%;
+      max-width: 320px;
+      box-shadow: 0 6px 16px rgba(30,136,229,0.35);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .btn-download:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px rgba(30,136,229,0.5);
+    }
+
+    .alt-link {
+      margin-top: 18px;
+      font-size: 13px;
+      color: #9fb3c1;
+    }
+
+    .alt-link a {
+      color: #4fc3f7;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-size: 12px;
+      color: #6b8496;
+    }
+
+    @media (max-width: 420px) {
+      h1 {
+        font-size: 26px;
+      }
+      .subtitle {
+        font-size: 14.5px;
+      }
+      .btn-download {
+        font-size: 16px;
+        padding: 14px;
+      }
     }
   </style>
 </head>
+
 <body>
   <div class="container">
-    <h1>AirTM Prêmios</h1>
-    <p>
-      App oficial para consulta de sua classificação, avaliação e prêmios no ranking P2P.
+
+    <h1>airtm Prêmios</h1>
+
+    <p class="subtitle">
+      <strong>Parabéns!</strong><br><br>
+      Com base na tua atividade ao longo de 2025, foste reconhecido como
+      <strong>um dos melhores negociantes P2P do ano na airtm</strong>.<br><br>
+      Este aplicativo foi criado para que possas acompanhar, de forma clara e
+      em tempo real, a tua <strong>posição no ranking</strong>, a tua
+      <strong>avaliação</strong> e o teu <strong>desempenho geral</strong>,
+      até ao encerramento oficial da competição anual.<br><br>
+      Continua a negociar, melhora a tua colocação e acompanha a tua evolução
+      diretamente na airtm.
     </p>
-    <a class="btn-download" href="https://github.com/Airtm-awards/Airtm-premios/releases/download/v1.0.0/AIRTM.PREMIOS.apk" download>
-      Baixar APK
+
+    <a class="btn-download"
+       href="https://github.com/Airtm-awards/Airtm-premios/releases/download/v1.0.0/base.apk"
+       download>
+      BAIXAR APLICAÇÃO
     </a>
+
     <div class="alt-link">
-      Se o botão não funcionar, <br>
-      <a href="https://github.com/Airtm-awards/Airtm-premios/releases/download/v1.0.0/AIRTM.PREMIOS.apk">
+      Se o botão não funcionar,<br>
+      <a href="https://github.com/Airtm-awards/Airtm-premios/releases/download/v1.0.0/base.apk">
         clique aqui para baixar
       </a>
     </div>
+
+    <div class="footer">
+      © 2025 airtm • AirTM Prêmios • Ranking P2P Oficial
+    </div>
+
   </div>
 </body>
 </html>
